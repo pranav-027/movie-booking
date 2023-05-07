@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Movie Ticket Booking</title>
+  </head>
+  <body>
+    <header>
+      <h1>Movie Ticket Booking</h1>
+      <a href="#" class="signup-button">Sign Up</a>
+    </header>
+
+    <nav>
+      <a href="booking.html">Booking</a>
+      <a href="nowshowing.html">Now Showing</a>
+    </nav>
+
+    <div class="container">
+      <h2>Welcome to Movie Ticket Booking</h2>
+      <p>Please choose an option from the navigation menu.</p>
+    </div>
+    <div class="signup-form" id="signup-form">
+      <h2>Sign Up</h2>
+      <form>
+        <input
+          type="text"
+          id="registration-id"
+          placeholder="Registration ID"
+          required
+        />
+        <input
+          type="text"
+          id="username"
+          placeholder="Username"
+          pattern="[A-Za-z]+"
+          required
+        />
+        <input
+          type="password"
+          id="password"
+          placeholder="Password"
+          pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*]).{8,}"
+          required
+        />
+        <input type="email" id="email" placeholder="Email" required />
+        <input
+          type="tel"
+          id="mobile-number"
+          placeholder="Mobile Number"
+          pattern="[0-9]{10}"
+          required
+        />
+        <input
+          type="text"
+          id="dob"
+          placeholder="DOB (DDMMYYYY)"
+          pattern="[0-9]{8}"
+          required
+        />
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+  </body>
+</html>
