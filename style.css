@@ -73,9 +73,11 @@ body {
   }
   
   .seat.selected {
-    background-color: #00f;
+    background-color: #ff0;
+  cursor: pointer;
   }
   
+
   .booking-btn {
     margin-top: 10px;
     padding: 10px 20px;
@@ -129,3 +131,59 @@ body {
     color: red;
     font-size: 12px;
   }
+
+  img{
+    width: 30%;
+  }
+
+  .movie-selection{
+    text-align: center;
+  }
+  
+  .movie-details{
+    text-align: center;
+  }
+
+  .seat.selected {
+    background-color: #ff0;
+    cursor: pointer;
+  }
+  
+  #selected-seats-label {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  #selected-seats,
+  #total-price {
+    font-weight: bold;
+  }
+
+  .search-container {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  #search-input {
+    padding: 10px;
+    width: 130px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #search-button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  #search-results {
+    margin-top: 20px;
+  }
+  
+  
